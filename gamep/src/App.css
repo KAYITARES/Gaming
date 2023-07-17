@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Luxurious+Roman&display=swap");
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Bacasime Antique", serif;
+  font-family: "Luxurious Roman", cursive;
+}
+.home-container {
+  height: 100vh;
+  background-image: url("https://images.pexels.com/photos/1111597/pexels-photo-1111597.jpeg?");
+  width: 100%;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  object-fit: cover;
+}
+.flex-center-alignment {
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.button-container {
+  display: inline-block;
+  text-align: center;
+
+  /* background-image: radial-gradient(#0ee9f6, #d81fc5); */
+}
+.btn:hover {
+  border: 1px solid white;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.405);
+  background-image: linear-gradient(to left, #0ee9f6, #d81fc5);
+  transform: translate(3px, -5px);
+}
+.btn:active {
+  transform: translate(1px, -2px);
+}
+.btn {
+  font-family: inherit;
+  text-align: center;
+  display: flex;
+  border-radius: 8px;
+  justify-self: center;
+  border: none;
+  color: transparent;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.405);
+  letter-spacing: 8px;
+  border: 1px solid #d81fc5;
+  /* text-shadow: 1px 3px 3px rgba(0, 0, 0, 0.674); */
+  text-transform: uppercase;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(to top, #d81fc5, #0ee9f6);
+  background-color: aliceblue;
+  transition: all 0.3s;
+}
+.btn-lg {
+  font-size: 4.8rem;
+  padding: 3rem 9rem;
+}
+.btn-md {
+  font-size: 1.8rem;
+  padding: 1.5rem 3rem;
+}

@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600;700;800;900&display=swap");
+.navbar {
+  padding: 2rem;
+  height: 10%;
+}
+.close-icon {
+  display: flex;
+
+  justify-content: flex-end;
+}
+.css-i4bv87-MuiSvgIcon-root {
+  font-size: 2.2rem !important;
+
+  color: #d81fc5 !important;
+}
+.css-ix1f03-MuiTypography-root {
+  font-size: 1.6rem !important;
+  font-family: "Bacasime Antique", serif !important;
+  font-family: "Luxurious Roman", cursive !important;
+}
+.navbar-links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style-type: none;
+}
+.mg-2 {
+  margin-top: 2rem;
+}
+.navbar-link {
+  text-decoration: none;
+  color: white !important;
+  display: block;
+  font-weight: bold !important;
+  font-family: "Inter", sans-serif !important;
+  text-shadow: 1px 3px 3px rgba(0, 0, 0, 0.674) !important;
+  font-size: 3.8rem !important;
+  transition: all 0.3s;
+}
+.navbar-link:hover {
+  color: transparent !important;
+  -webkit-background-clip: text !important;
+  background-image: linear-gradient(to bottom, #0ee9f6, #ffffff) !important;
+}
