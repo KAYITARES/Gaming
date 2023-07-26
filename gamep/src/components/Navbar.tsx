@@ -28,6 +28,7 @@ const Navbar=(props:any)=>{
         <div className="navbar">
             <ul className='navbar-links'>
             <Button onClick={handleOpen}  className='navbar-link'>{props.help}</Button>
+            <a href="/" className="navbar-link">{props.home}</a>
                 
             </ul>
 
@@ -50,9 +51,12 @@ const Navbar=(props:any)=>{
           <Typography id="modal-modal-description" sx={{ mt: 2 }}>
           Worem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.
           </Typography>
-          <div className="button-container bg-white mg-2">
-<button className='btn btn-md'>Play Now</button>
+          <div className="tb">
+          <div className="btn-containers">
+    <button className='btns btn-md'>Play Now</button>
 </div>
+          </div>
+   
         </Box>
       </Modal>
     </div>

@@ -6,8 +6,8 @@ const Home=()=>{
         <div className="home-container">
             <Navbar help="HELP"/>
             <div className='flex-center-alignment'>
-            <div className="button-container">
-<button className='btn btn-lg'>Play Now</button>
+<div className="btn-containers">
+    <a className='btns btn-lg' href='/login'>Play Now</a>
 </div>
         </div>
             </div>
